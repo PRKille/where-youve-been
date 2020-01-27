@@ -40,7 +40,7 @@ $(document).ready(function() {
     console.log(display);
     $("#lists").append("<li>" + Vacation.locations[0].startTime + "</li>");
     $("#lists").append("<li>" + Vacation.locations[0].endTime + "</li>");
-    display.landmarksArray.forEach(function(landmarks) {
+    display.landmarks.forEach(function(landmarks) {
       $("#lists").append("<li>" + landmarks + "</li>")
     });
   });
